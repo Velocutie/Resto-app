@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resto App | Scan. Order. Enjoy.</title>
+  <meta name="description" content="Resto App Phase 1 restaurant ordering platform MVP.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="app-shell">
+    <section class="brand-block">
+      <div class="brand-mark" aria-hidden="true">R</div>
+      <div>
+        <p class="eyebrow">Resto App</p>
+        <h1>Scan. Order. Enjoy.</h1>
+      </div>
+    </section>
+    <nav class="role-tabs" aria-label="Role navigation">
+      <button class="role-tab active" data-view="customer">Customer</button>
+      <button class="role-tab" data-view="admin">Admin</button>
+      <button class="role-tab" data-view="kitchen">Kitchen</button>
+      <button class="role-tab" data-view="waiter">Waiter</button>
+    </nav>
+    <button class="icon-button" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">
+      <span class="sun">☼</span>
+      <span class="moon">◐</span>
+    </button>
+  </header>
+
+  <main id="app" class="workspace" aria-live="polite"></main>
+
+  <section class="toast-stack" id="toastStack" aria-live="assertive"></section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

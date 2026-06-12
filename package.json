@@ -1,0 +1,19 @@
+{
+  "name": "resto-app",
+  "version": "1.0.0",
+  "description": "Phase 1 MVP for a restaurant ordering and staff workflow platform.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "check": "node --check server.js && node --check database.js && node --check public/js/app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
