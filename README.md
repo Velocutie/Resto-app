@@ -4,7 +4,7 @@
 
 Resto App is a Phase 1 MVP for **QR-based restaurant ordering and management**.
 
-Customers can scan a table QR code, browse the menu, place orders, request waiter assistance, and track their order status in real time. Restaurant staff can manage orders through dedicated admin, kitchen, and waiter dashboards.
+Customers can scan a table QR code, browse the menu, place orders, request waiter assistance, and track their order status in real time. Restaurant staff can manage orders through dedicated admin, kitchen, and Waiter dashboards.
 
 ---
 
